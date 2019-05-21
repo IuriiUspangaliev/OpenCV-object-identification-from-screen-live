@@ -41,7 +41,7 @@ class Input(ctypes.Structure):
 # and release key
 
 # you can find key codes here:
-# https://www.gamespp.com/directx/directInputKeyboardScanCodes.html
+# http://www.gamespp.com/directx/directInputKeyboardScanCodes.html
 SendInput = ctypes.windll.user32.SendInput
 def PressKey(hexKeyCode):
 	"""input key code you want to press"""
