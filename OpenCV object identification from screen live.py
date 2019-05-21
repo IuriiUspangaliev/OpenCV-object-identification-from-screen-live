@@ -76,6 +76,7 @@ while True:
 	# match gray image with template using TM_CCOEFF_NORMED
 	res = cv2.matchTemplate(gray, template, cv2.TM_CCOEFF_NORMED)
 	# find mathes
+	# play with template matching accuracy using res
 	loc = np.where(res >= 0.5)
 	
 	# I implemented flag here, so you can use it after in development
