@@ -2,7 +2,7 @@
 
 This is basic functionality for reading from your screen with OpenCV. 
 
-Personally, I've used it for web scraping with BeautifulSoup and to build game bots. I've added low level input for keyboard, because many games weren't respond to higher level input like pyautogui.
+Personally, I've used it for web scraping with BeautifulSoup and to build game bots using ML. I've added low level input for keyboard, because many games weren't respond to higher level input like pyautogui.
 
 Basically, we are taking screenshots from screen, then adding it to OpenCV and operating with OpenCV output.
 
