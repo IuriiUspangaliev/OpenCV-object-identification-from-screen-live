@@ -1,1 +1,2 @@
-# OpenCV-object-identification-from-screen-live
+# Using OpenCV to identify objects from screen live
+
