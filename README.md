@@ -12,5 +12,5 @@ Notice, that you should provide template image for code to work.
 For pressing keys use pressKey(hexKeyCode), then use time.sleep(how long sec) command and releaseKey(hexKeyCode).
 You can find hex keys here: http://www.gamespp.com/directx/directInputKeyboardScanCodes.html
 
-For template recognition accuracy play with res parameter in loc = np.where(res >= 0.5). Higher the value, more accurate output will be.
+For template recognition accuracy play with res parameter in "loc = np.where(res >= 0.5)". Higher the value, more accurate output will be.
 Sometimes, I placed it right on 0.5 (minimum value for correct template recognition) and it works fine, but if I placed it higher it won't. So try different values.
